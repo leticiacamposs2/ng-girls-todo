@@ -1,4 +1,9 @@
-<div style="text-align:center">
-  <app-input-button></app-input-button>
-</div>
+<app-input-button></app-input-button>
+
+<ul>
+  <li *ngFor="let todoItem of todoList">
+    {{ todoItem.title }}
+  </li>
+</ul>
+
 <router-outlet></router-outlet>
