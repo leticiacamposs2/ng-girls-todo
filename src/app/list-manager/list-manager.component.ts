@@ -14,10 +14,14 @@ export class ListManagerComponent implements OnInit {
   constructor(private todoListService: TodoListService) { }
 
   ngOnInit() {
-    this.todoList = this.todoListService.getTodoList();
+    this.todoList = this.todoListService.todoList;
   }
 
   addItem(title: string) {
     this.todoListService.addItem({ title });
+  }
+
+  removeItem(item) {
+    this.todoListService.deleteItem(item);
   }
 }
