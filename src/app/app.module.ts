@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputButtonComponent } from './input-button/input-button.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
+import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputButtonComponent,
+    InputButtonUnitComponent,
     TodoItemComponent
   ],
   imports: [
