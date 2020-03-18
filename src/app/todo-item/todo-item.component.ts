@@ -9,11 +9,18 @@ import { TodoItem } from '../interfaces/todo-item';
 export class TodoItemComponent {
 
   @Input() item: TodoItem;
-
   @Output() remove: EventEmitter<TodoItem> = new EventEmitter();
+  @Output() update: EventEmitter<any> = new EventEmitter();
 
   removeItem() {
     this.remove.emit(this.item);
+  }
+
+  completeItem() {
+    this.update.emit({
+      item: this.item,
+      changes: { completed: !this.item.completed }
+    });
   }
 
 }
