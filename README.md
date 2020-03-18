@@ -1,27 +1,50 @@
-# TodoList
+# Tutorial @Ng Girls 💖 - Todo List
+Este projeto consiste em uma aplicação de lista de tarefas pronta (To-do's list), que mostra uma lista de itens e permite adicionar ou excluir itens. Você poderá alterar o título de um item existente. Em outras palavras realizar as quatro operações básicas de uma aplicação, o CRUD - Create, Read, Update e Delete.
+A lista é salva no armazenamento local do navegador (local storage) em seu computador. Todas as alterações permanecerão mesmo quando você atualizar o navegador ou desligar o computador  (desde que você use o mesmo navegador no mesmo computador e não no modo privado)).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
+*****
 
-## Development server
+## 🚀 Deploy da aplicação na página do @Git Pages
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### https://leticiacamposs2.github.io/ng-girls-todo/ng-girls-todo/
 
-## Code scaffolding
+*****
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ⚠️ Pré-requisitos:
 
-## Build
+1. Node.js e NPM instalado (versão 10.x ou acima)
+2. Angular CLI instalado ( `npm i -g @angular/cli` )
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+*****
 
-## Running unit tests
+## 🚀 Rodando a aplicação localmente:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone o projeto na sua máquina
 
-## Running end-to-end tests
+```sh
+git clone https://github.com/leticiacamposs2/ng-girls-todo.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+2. Acesse a pasta do projeto
 
-## Further help
+```sh
+cd ng-girls-todo
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. Instale todas as dependências do projeto
+
+```sh
+npm install
+```
+
+4. Rode o projeto na sua máquina
+
+```sh
+ng serve
+```
+
+5. Abre o navegador e visualize o projeto
+
+```sh
+http://localhost:4200
+```
